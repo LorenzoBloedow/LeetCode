@@ -6,7 +6,7 @@ function twoSum(nums: number[], target: number): number[] {
             if (nums.indexOf(otherSum) === i) {
                 if (nums.indexOf(otherSum, (i + 1)) !== -1) {
                     return [nums.indexOf(otherSum),
-                            nums.indexOf(otherSum, nums.indexOf(otherSum) + 1)];
+                        nums.indexOf(otherSum, nums.indexOf(otherSum) + 1)];
                 }
                 continue;
             return [i, nums.indexOf(otherSum)]; 
