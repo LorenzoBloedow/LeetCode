@@ -1,2 +1,2 @@
 # LeetCode
-My LeetCode final submissions.
+My final LeetCode submissions.
